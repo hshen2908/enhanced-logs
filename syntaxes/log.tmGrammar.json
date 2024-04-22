@@ -1,0 +1,31 @@
+{
+    "scopeName": "source.log",
+    "patterns": [{ "include": "#expression" }],
+    "repository": {
+      "expression": {
+        "patterns": [{ "include": "#error-keyword" }, { "include": "#log-line" }, { "include": "#log-source" }]
+      },
+      "log-source": {
+        "begin": "\\[",
+        "end": "\\]",
+        "beginCaptures": {
+          "0": { "name": "punctuation.paren.open" }
+        },
+        "endCaptures": {
+          "0": { "name": "punctuation.paren.close" }
+        },
+        "name": "string.source.log",
+        "patterns": [{ "include": "#expression" },{
+          "name": "variable.other.constant.filename.source.log",
+          "match": "\\w+\\.\\w+"
+        },{
+          "name": "variable.other.constant.filepos.source.log",
+          "match": "\\d+\\:\\d+"
+        }]
+      },
+      "error-keyword": {
+        "name": "invalid.illegal",
+        "match": "(?i)\\w*(error|fail|fault|problem|mistake|miss|inacc)\\w*"
+      }
+    }
+  }

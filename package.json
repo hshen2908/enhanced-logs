@@ -1,0 +1,236 @@
+{
+  "name": "enhanced-logs",
+  "displayName": "Enhanced Logs",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.healthcareit.net/Henrique.Shen/enhanced-logs"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:log"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "configuration": [
+      {
+        "title": "Workspace",
+        "properties": {
+          "enhanced-logs.rootWorkspacesDirectory": {
+            "type": "string",
+            "order": 0,
+            "format": "uri",
+            "default": "C:\\Users\\Henrique Shen\\enhanced-logs\\aaaa",
+            "markdownDescription": "Path to root directory where log workspaces are located"
+          }
+        }
+      },
+      {
+        "title": "Source Search",
+        "properties": {
+          "enhanced-logs.rootSearchDirectory": {
+            "type": "string",
+            "order": 1,
+            "format": "uri",
+            "default": "C:\\Users\\Henrique Shen\\enhanced-logs\\aaaa",
+            "markdownDescription": "Path to root directory where source file search will be performed"
+          },
+          "enhanced-logs.sourceRegExp": {
+            "type": "string",
+            "order": 2,
+            "default": "\\[\\w+\\.\\w+\\, \\d+\\:\\d+\\]",
+            "markdownDescription": "Regular expression used to match source info string in the logs"
+          },
+          "enhanced-logs.fileNameRegExp": {
+            "type": "string",
+            "order": 3,
+            "default": "\\w+\\.\\w+",
+            "markdownDescription": "Regular expression used to match file name in the matched source string"
+          },
+          "enhanced-logs.filePositionRegExp": {
+            "type": "string",
+            "order": 4,
+            "default": "\\d+\\:\\d+",
+            "markdownDescription": "Regular expression used to match file position in the matched source string"
+          }
+        }
+      },
+      {
+        "title": "Hover Content",
+        "properties": {
+          "enhanced-logs.surroundingLineCount": {
+            "type": "integer",
+            "order": 5,
+            "default": 5,
+            "minimum": 0,
+            "markdownDescription": "Number of lines to be displayed above and below the found source code line"
+          },
+          "enhanced-logs.maxMatchesForDetailedOutput": {
+            "type": "integer",
+            "order": 6,
+            "default": 3,
+            "minimum": 0,
+            "markdownDescription": "Maximum number of matches to show detailed file output before resorting to compact output"
+          }
+        }
+      },
+      {
+        "title": "Potential Problems",
+        "properties": {
+          "enhanced-logs.errorRegExp": {
+            "type": "string",
+            "order": 5,
+            "default": "(error|fail|fault|problem|mistake|miss|inacc)",
+            "markdownDescription": "Regular expression used to match potential error messages in log files"
+          }
+        }
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "enhanced-logs-activitybar",
+          "title": "Enhanced Logs",
+          "icon": "resources/log.svg"
+        }
+      ],
+      "panel": [
+        {
+          "id": "enhanced-logs-panel",
+          "title": "Enhanced Logs",
+          "icon": "resources/log.svg"
+        }
+      ]
+    },
+    "views": {
+      "enhanced-logs-activitybar": [
+        {
+          "id": "enhanced-logs-activitybar-workspaces",
+          "name": "Workspaces"
+        },
+        {
+          "id": "enhanced-logs-activitybar-notes",
+          "name": "Notes"
+        }
+      ],
+      "enhanced-logs-panel": [
+        {
+          "id": "enhanced-logs-panel-problems",
+          "name": "Problems"
+        }
+      ]
+    },
+    "menus": {
+      "view/title": [
+        {
+          "command": "enhanced-logs.refreshWorkspaceCommand",
+          "when": "view == enhanced-logs-activitybar-workspaces",
+          "group": "navigation"
+        },
+        {
+          "command": "enhanced-logs.createNoteItemCommand",
+          "when": "view == enhanced-logs-activitybar-notes",
+          "group": "navigation"
+        }
+      ],
+      "view/item/context": [
+        {
+          "command": "enhanced-logs.openNoteItemCommand",
+          "when": "view == enhanced-logs-activitybar-notes",
+          "group": "modification@1"
+        },
+        {
+          "command": "enhanced-logs.editNoteItemCommand",
+          "when": "view == enhanced-logs-activitybar-notes",
+          "group": "modification@2"
+        },
+        {
+          "command": "enhanced-logs.deleteNoteItemCommand",
+          "when": "view == enhanced-logs-activitybar-notes",
+          "group": "modification@3"
+        }
+      ],
+      "editor/title": [
+        {
+          "command": "enhanced-logs.openWorkspaceItemCommand",
+          "when": "resourceLangId == log",
+          "group": "navigation"
+        }
+    ]},
+    "commands": [
+      {
+        "command": "enhanced-logs.openWorkspaceItemCommand",
+        "title": "Open Workspace Item",
+        "icon": "$(go-to-file)"
+      },
+      {
+        "command": "enhanced-logs.refreshWorkspaceCommand",
+        "title": "Refresh Workspace",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "enhanced-logs.createNoteItemCommand",
+        "title": "New Note",
+        "icon": "$(plus)"
+      },
+      {
+        "command": "enhanced-logs.openNoteItemCommand",
+        "title": "Open",
+        "icon": "$(go-to-file)"
+      },
+      {
+        "command": "enhanced-logs.editNoteItemCommand",
+        "title": "Edit",
+        "icon": "$(pencil)"
+      },
+      {
+        "command": "enhanced-logs.deleteNoteItemCommand",
+        "title": "Delete",
+        "icon": "$(trash)"
+      },
+      {
+        "command": "enhanced-logs.openProblemItemCommand",
+        "title": "Open Problem Item",
+        "icon": "$(go-to-file)"
+      }
+    ],
+    "languages": [
+      {
+        "id": "log",
+        "extensions": [".log"]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "log",
+        "scopeName": "source.log",
+        "path": "./syntaxes/log.tmGrammar.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.87.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.3.3",
+    "@vscode/test-cli": "^0.0.8",
+    "@vscode/test-electron": "^2.3.9"
+  }
+}
