@@ -26,8 +26,8 @@
             "type": "string",
             "order": 0,
             "format": "uri",
-            "default": "C:\\Users\\Henrique Shen\\enhanced-logs\\aaaa",
-            "markdownDescription": "Path to root directory where log workspaces are located"
+            "default": "",
+            "markdownDescription": "Absloute Path to root directory where log workspaces are located"
           }
         }
       },
@@ -38,8 +38,8 @@
             "type": "string",
             "order": 1,
             "format": "uri",
-            "default": "C:\\Users\\Henrique Shen\\enhanced-logs\\aaaa",
-            "markdownDescription": "Path to root directory where source file search will be performed"
+            "default": "",
+            "markdownDescription": "Absloute Path to root directory where source file search will be performed"
           },
           "enhanced-logs.sourceRegExp": {
             "type": "string",
