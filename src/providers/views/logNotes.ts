@@ -280,7 +280,7 @@ class LogDecorations {
     static readonly noteColorsDecorationsMap: Map<string, vscode.TextEditorDecorationType> = new Map();
     static readonly noteDecorations: vscode.TextEditorDecorationType[] = LogDecorations.colors.map((color: string) => {
         const decoration: vscode.TextEditorDecorationType = vscode.window.createTextEditorDecorationType({
-            gutterIconPath: `C:/Users/Henrique Shen/enhanced-logs/resources/${color}.png`,
+            gutterIconPath: `${__dirname}/../../../resources/${color}.png`,
             gutterIconSize: "cover",
             // backgroundColor: LogDecorations.colorToHexMap.get(color),
             overviewRulerColor: LogDecorations.colorToHexMap.get(color)
