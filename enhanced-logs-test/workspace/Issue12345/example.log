@@ -1,0 +1,230 @@
+[main.cpp, 20:5] Application started successfully
+[config.cpp, 35:8] Configuration file config.cfg successfully loaded
+[graphics.cpp, 45:15] Graphics system initialized with resolution 1920x1080
+[device_manager.cpp, 22:3] Detected and configured hardware devices
+[network.cpp, 57:10] Attempting to establish connection with server at 192.168.0.105
+[database.cpp, 102:3] Database connection established
+[utility.cpp, 78:9] Parsing user configurations from settings.cfg
+[test.c, 1:1] Error: Missing file - settings.cfg not found
+[main.cpp, 33:21] Launching user interface
+[graphics.cpp, 120:13] Rendering first scene
+[system.cpp, 22:11] System health check completed: all systems operational
+[threading.cpp, 47:22] Initialized 4 worker threads for asynchronous tasks
+[network.cpp, 61:18] Connection to server established
+[database.cpp, 112:5] Starting database transaction
+[mathlib.cpp, 64:16] Calculating spline interpolation for provided data points
+[test.c, 2:2] Warning: Low memory resources detected
+[graphics.cpp, 130:12] Updated screen refresh rate to 60 Hz
+[io.cpp, 85:17] Loading textures from /assets/textures
+[logging.cpp, 15:7] Logger initialized: logging to /var/log/myapp.log
+[resource_tracker.cpp, 34:11] Resource allocation log updated
+[database.cpp, 121:6] Database transaction committed
+[sound.cpp, 58:19] Sound system initialized with 3D spatial audio
+[network.cpp, 75:22] Sending heartbeat message to server
+[mathlib.cpp, 72:7] Error in mathematical computation: division by zero
+[main.cpp, 50:19] Entering main event loop
+[test.c, 3:5] Critical: Unable to read from configuration file due to permissions
+[graphics.cpp, 150:9] Successfully loaded 23 textures from disk
+[io.cpp, 90:5] Input device initialized: Keyboard and Mouse
+[network.cpp, 80:14] Received response for heartbeat message
+[security.cpp, 40:6] Security check: all file checksums match the expected values
+[utility.cpp, 99:20] Updated application settings based on user preferences
+[test.c, 4:4] Error: Graphics driver failure reported by system
+[performance.cpp, 34:18] Performance metrics logged: CPU and GPU usage recorded
+[main.cpp, 60:11] Application state updated to running
+[mathlib.cpp, 85:22] Optimal path calculated using Dijkstra's algorithm
+[database.cpp, 130:8] Query executed: SELECT * FROM users WHERE active=1
+[file_io.cpp, 52:14] Attempted to write to read-only file: /data/output.log
+[network.cpp, 89:13] Error: Network timeout during data synchronization
+[graphics.cpp, 180:10] Rendering error: Shader compilation failed
+[test.c, 5:9] Fatal: Application encountered an unrecoverable error and will shut down
+[ui.cpp, 102:7] UI warning: Low contrast ratio detected in theme settings
+[io.cpp, 100:6] User command processed: Exiting application
+[cache.cpp, 18:19] Clearing cache and temporary storage
+[main.cpp, 70:12] Application exit sequence initiated
+[database.cpp, 140:15] Closing database connection
+[network.cpp, 98:20] Disconnecting from server
+[cleanup.cpp, 25:3] Cleanup operations completed, releasing resources
+[main.cpp, 75:7] Application shutdown completed successfully
+[main.cpp, 20:5] Application started successfully
+[config.cpp, 35:8] Configuration file config.cfg successfully loaded
+[graphics.cpp, 45:15] Graphics system initialized with resolution 1920x1080
+[device_manager.cpp, 22:3] Detected and configured hardware devices
+[network.cpp, 57:10] Attempting to establish connection with server at 192.168.0.105
+[database.cpp, 102:3] Database connection established
+[utility.cpp, 78:9] Parsing user configurations from settings.cfg
+[test.c, 1:1] Error: Missing file - settings.cfg not found
+[main.cpp, 33:21] Launching user interface
+[graphics.cpp, 120:13] Rendering first scene
+[system.cpp, 22:11] System health check completed: all systems operational
+[threading.cpp, 47:22] Initialized 4 worker threads for asynchronous tasks
+[network.cpp, 61:18] Connection to server established
+[database.cpp, 112:5] Starting database transaction
+[mathlib.cpp, 64:16] Calculating spline interpolation for provided data points
+[test.c, 2:2] Warning: Low memory resources detected
+[graphics.cpp, 130:12] Updated screen refresh rate to 60 Hz
+[io.cpp, 85:17] Loading textures from /assets/textures
+[logging.cpp, 15:7] Logger initialized: logging to /var/log/myapp.log
+[resource_tracker.cpp, 34:11] Resource allocation log updated
+[database.cpp, 121:6] Database transaction committed
+[sound.cpp, 58:19] Sound system initialized with 3D spatial audio
+[network.cpp, 75:22] Sending heartbeat message to server
+[mathlib.cpp, 72:7] Error in mathematical computation: division by zero
+[main.cpp, 50:19] Entering main event loop
+[test.c, 3:5] Critical: Unable to read from configuration file due to permissions
+[graphics.cpp, 150:9] Successfully loaded 23 textures from disk
+[io.cpp, 90:5] Input device initialized: Keyboard and Mouse
+[network.cpp, 80:14] Received response for heartbeat message
+[security.cpp, 40:6] Security check: all file checksums match the expected values
+[utility.cpp, 99:20] Updated application settings based on user preferences
+[test.c, 4:4] Error: Graphics driver failure reported by system
+[performance.cpp, 34:18] Performance metrics logged: CPU and GPU usage recorded
+[main.cpp, 60:11] Application state updated to running
+[mathlib.cpp, 85:22] Optimal path calculated using Dijkstra's algorithm
+[database.cpp, 130:8] Query executed: SELECT * FROM users WHERE active=1
+[file_io.cpp, 52:14] Attempted to write to read-only file: /data/output.log
+[network.cpp, 89:13] Error: Network timeout during data synchronization
+[graphics.cpp, 180:10] Rendering error: Shader compilation failed
+[test.c, 5:9] Fatal: Application encountered an unrecoverable error and will shut down
+[ui.cpp, 102:7] UI warning: Low contrast ratio detected in theme settings
+[io.cpp, 100:6] User command processed: Exiting application
+[cache.cpp, 18:19] Clearing cache and temporary storage
+[main.cpp, 70:12] Application exit sequence initiated
+[database.cpp, 140:15] Closing database connection
+[network.cpp, 98:20] Disconnecting from server
+[cleanup.cpp, 25:3] Cleanup operations completed, releasing resources
+[main.cpp, 75:7] Application shutdown completed successfully
+[utils.c, 88:4] Utility functions for date and time processing added
+[graphics.m, 59:11] Objective-C implementation for macOS graphics handling started
+[test.c, 6:12] Warning: Deprecated API usage in graphics.m:59
+[utils.c, 95:17] Error parsing date input: format mismatch
+[network.m, 32:20] Starting network monitoring for iOS devices
+[protocol.c, 47:3] Protocol handler for custom network protocol implemented
+[test.c, 7:18] Error: Memory leak detected in protocol.c:47
+[render.c, 102:9] Initialized rendering pipeline with OpenGL
+[session.m, 74:5] Session manager for user logins created
+[database.c, 130:16] Implemented new SQL query optimizer
+[test.c, 8:22] Critical: Segmentation fault in session.m:74
+[security.m, 60:14] Enhanced security measures for mobile applications
+[graphics.c, 180:7] Added support for dynamic shadow rendering
+[test.c, 9:30] Warning: Overflow in graphics.c:180
+[ui.m, 98:11] UI components for iOS updated with new animations
+[network.c, 110:6] Network error handling improved for better resilience
+[performance.m, 45:19] Performance analysis tools developed for iOS app monitoring
+[test.c, 10:2] Fatal: Stack overflow in main.cpp:60
+[algorithm.c, 66:12] New sorting algorithm implemented for efficiency
+[device_manager.m, 31:8] Device compatibility checks updated for newer iOS models
+[graphics.m, 200:15] Metal API used for rendering optimizations in macOS
+[test.c, 11:5] Error: File not found device_manager.m:31
+[config.c, 55:7] Config parser enhanced to support JSON and XML
+[test.c, 12:20] Error: Undefined behavior encountered in config.c:55
+[threading.m, 90:14] Multithreading support enhanced for macOS applications
+[test.c, 13:17] Warning: Data race detected in threading.m:90
+[mathlib.c, 134:6] Implemented complex number operations for signal processing
+[system.m, 82:8] System utilities for macOS updated to utilize newer APIs
+[test.c, 14:3] Error: Permission denied when accessing system log
+[protocol.c, 50:5] Updated protocol encryption for secure data transfer
+[test.c, 15:9] Fatal: Null pointer dereference in network.c:110
+[database.m, 105:22] CoreData integration for efficient data management in iOS
+[test.c, 16:11] Warning: Potential data corruption in database.m:105
+[sound.c, 40:18] Advanced audio processing functions for 3D sound effects added
+[ui.m, 130:13] Critical UI bug fixed that caused app crashes on rotation
+[graphics.c, 210:19] Graphic buffer optimizations to reduce latency
+[test.c, 17:21] Error: Out of GPU memory in graphics.c:210
+[security.c, 75:4] Implemented new hashing algorithms for improved security
+[network.m, 150:12] Wireless network optimizations for better performance on iOS
+[performance.c, 60:8] CPU usage reduced through better management of system threads
+[test.c, 18:6] Critical: Device overheating detected in performance.c:60
+[file_io.m, 77:10] File system access streamlined for better performance on macOS
+[logging.c, 25:16] Custom log formatter added for more detailed error reports
+[main.cpp, 20:5] Application started successfully
+[config.cpp, 35:8] Configuration file config.cfg successfully loaded
+[graphics.cpp, 45:15] Graphics system initialized with resolution 1920x1080
+[device_manager.cpp, 22:3] Detected and configured hardware devices
+[network.cpp, 57:10] Attempting to establish connection with server at 192.168.0.105
+[database.cpp, 102:3] Database connection established
+[utility.cpp, 78:9] Parsing user configurations from settings.cfg
+[test.c, 1:1] Error: Missing file - settings.cfg not found
+[main.cpp, 33:21] Launching user interface
+[graphics.cpp, 120:13] Rendering first scene
+[system.cpp, 22:11] System health check completed: all systems operational
+[threading.cpp, 47:22] Initialized 4 worker threads for asynchronous tasks
+[network.cpp, 61:18] Connection to server established
+[database.cpp, 112:5] Starting database transaction
+[mathlib.cpp, 64:16] Calculating spline interpolation for provided data points
+[test.c, 2:2] Warning: Low memory resources detected
+[graphics.cpp, 130:12] Updated screen refresh rate to 60 Hz
+[io.cpp, 85:17] Loading textures from /assets/textures
+[logging.cpp, 15:7] Logger initialized: logging to /var/log/myapp.log
+[resource_tracker.cpp, 34:11] Resource allocation log updated
+[database.cpp, 121:6] Database transaction committed
+[sound.cpp, 58:19] Sound system initialized with 3D spatial audio
+[network.cpp, 75:22] Sending heartbeat message to server
+[mathlib.cpp, 72:7] Error in mathematical computation: division by zero
+[main.cpp, 50:19] Entering main event loop
+[test.c, 3:5] Critical: Unable to read from configuration file due to permissions
+[graphics.cpp, 150:9] Successfully loaded 23 textures from disk
+[io.cpp, 90:5] Input device initialized: Keyboard and Mouse
+[network.cpp, 80:14] Received response for heartbeat message
+[security.cpp, 40:6] Security check: all file checksums match the expected values
+[utility.cpp, 99:20] Updated application settings based on user preferences
+[test.c, 4:4] Error: Graphics driver failure reported by system
+[performance.cpp, 34:18] Performance metrics logged: CPU and GPU usage recorded
+[main.cpp, 60:11] Application state updated to running
+[mathlib.cpp, 85:22] Optimal path calculated using Dijkstra's algorithm
+[database.cpp, 130:8] Query executed: SELECT * FROM users WHERE active=1
+[file_io.cpp, 52:14] Attempted to write to read-only file: /data/output.log
+[network.cpp, 89:13] Error: Network timeout during data synchronization
+[graphics.cpp, 180:10] Rendering error: Shader compilation failed
+[test.c, 5:9] Fatal: Application encountered an unrecoverable error and will shut down
+[ui.cpp, 102:7] UI warning: Low contrast ratio detected in theme settings
+[io.cpp, 100:6] User command processed: Exiting application
+[cache.cpp, 18:19] Clearing cache and temporary storage
+[main.cpp, 70:12] Application exit sequence initiated
+[database.cpp, 140:15] Closing database connection
+[network.cpp, 98:20] Disconnecting from server
+[cleanup.cpp, 25:3] Cleanup operations completed, releasing resources
+[main.cpp, 75:7] Application shutdown completed successfully
+[utils.c, 88:4] Utility functions for date and time processing added
+[graphics.m, 59:11] Objective-C implementation for macOS graphics handling started
+[test.c, 6:12] Warning: Deprecated API usage in graphics.m:59
+[utils.c, 95:17] Error parsing date input: format mismatch
+[network.m, 32:20] Starting network monitoring for iOS devices
+[protocol.c, 47:3] Protocol handler for custom network protocol implemented
+[test.c, 7:18] Error: Memory leak detected in protocol.c:47
+[render.c, 102:9] Initialized rendering pipeline with OpenGL
+[session.m, 74:5] Session manager for user logins created
+[database.c, 130:16] Implemented new SQL query optimizer
+[test.c, 8:22] Critical: Segmentation fault in session.m:74
+[security.m, 60:14] Enhanced security measures for mobile applications
+[graphics.c, 180:7] Added support for dynamic shadow rendering
+[test.c, 9:30] Warning: Overflow in graphics.c:180
+[ui.m, 98:11] UI components for iOS updated with new animations
+[network.c, 110:6] Network error handling improved for better resilience
+[performance.m, 45:19] Performance analysis tools developed for iOS app monitoring
+[test.c, 10:2] Fatal: Stack overflow in main.cpp:60
+[algorithm.c, 66:12] New sorting algorithm implemented for efficiency
+[device_manager.m, 31:8] Device compatibility checks updated for newer iOS models
+[graphics.m, 200:15] Metal API used for rendering optimizations in macOS
+[test.c, 11:5] Error: File not found device_manager.m:31
+[config.c, 55:7] Config parser enhanced to support JSON and XML
+[test.c, 12:20] Error: Undefined behavior encountered in config.c:55
+[threading.m, 90:14] Multithreading support enhanced for macOS applications
+[test.c, 13:17] Warning: Data race detected in threading.m:90
+[mathlib.c, 134:6] Implemented complex number operations for signal processing
+[system.m, 82:8] System utilities for macOS updated to utilize newer APIs
+[test.c, 14:3] Error: Permission denied when accessing system log
+[protocol.c, 50:5] Updated protocol encryption for secure data transfer
+[test.c, 15:9] Fatal: Null pointer dereference in network.c:110
+[database.m, 105:22] CoreData integration for efficient data management in iOS
+[test.c, 16:11] Warning: Potential data corruption in database.m:105
+[sound.c, 40:18] Advanced audio processing functions for 3D sound effects added
+[ui.m, 130:13] Critical UI bug fixed that caused app crashes on rotation
+[graphics.c, 210:19] Graphic buffer optimizations to reduce latency
+[test.c, 17:21] Error: Out of GPU memory in graphics.c:210
+[security.c, 75:4] Implemented new hashing algorithms for improved security
+[network.m, 150:12] Wireless network optimizations for better performance on iOS
+[performance.c, 60:8] CPU usage reduced through better management of system threads
+[test.c, 18:6] Critical: Device overheating detected in performance.c:60
+[file_io.m, 77:10] File system access streamlined for better performance on macOS
+[logging.c, 25:16] Custom log formatter added for more detailed error reports
